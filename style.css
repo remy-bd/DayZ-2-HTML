@@ -1,0 +1,64 @@
+body {
+    background-image: url('assets/backgrounds/dayz-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    margin: 0;
+    padding: 30px;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+p {
+    font-size: 1.2rem;
+    max-width: 650px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 15px 25px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    line-height: 1.6;
+}
+
+.choices {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+    max-width: 450px;
+}
+
+.btn {
+    display: block;
+    padding: 14px 20px;
+    background-color: rgba(20, 25, 35, 0.85);
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.05rem;
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid #eab308;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #eab308;
+    color: #000000;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(234, 179, 8, 0.4);
+}
